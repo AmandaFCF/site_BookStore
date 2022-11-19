@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    font-stretch: extra-expanded;
+    padding: 4px 0;
+    background-color: purple;
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav li a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+    
+}
+
+section img {
+    max-width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 5px;
+}
+
+#first-section,
+.about-us {
+    max-width: 1000px;
+    width: 100%;
+    margin: 60px auto;
+}
+
+.container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-stretch: extra-expanded;
+    padding: 4px 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Poppins";
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Poppins";
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: "Poppins";
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+section div {
+    margin-left: 30px;
+}
+
+.container button {
+    cursor: pointer;
+    background-color: purple;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: "Quicksand";
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.container button:hover {
+    background-color: rgb(65, 1, 65);
+}
+
+.ratings h3,
+.books h3 {
+    text-align: center;
+}
+.ratings {
+	width: 100%;
+    padding: 40px;
+    background: rgba(128, 0, 128, 0.096);
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+	transform: scale(85%);
+	margin: 15px;
+	display: columns;
+    columns: 2;
+	grid-gap: 20px;
+}
+
+.box {
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding: 30px 30px 30px 0px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #6d6b6b6b;
+    color: black;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.stars {
+    font-size: 25px;
+    color: gold;
+}
+
+.recomended {
+    max-width: 1000px;
+    align-content: center;
+    transform: scale(70%);
+	margin: 15px;
+	display: flex;
+    grid-column: 5;
+	grid-gap: 40px;
+    justify-content: space-between;
+}
+
+#books {
+    margin: 40px;
+}
+
+footer,
+footer p {
+    background-color: purple;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#about-us {
+    text-align: justify;
+    margin-bottom: 50px;
+}
